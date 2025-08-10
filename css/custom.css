@@ -46,10 +46,10 @@
 /************************************/
 
 :root{
-	--primary-color				: #481E0B;
-	--secondary-color			: #FCF4F1;
+	--primary-color				: #bfa162;
+	--secondary-color			: #FAEFDF;
 	--text-color				: #69615D;
-	--accent-color				: #CD5F37;
+	--accent-color				: #5d4a1f;
 	--white-color				: #FFFFFF;
 	--divider-color				: #CD5F371A;
 	--dark-divider-color		: #FFFFFF1A;
@@ -61,7 +61,10 @@
 /************************************/
 /*** 	   02. General css		  ***/
 /************************************/
-
+.navbar-brand span{
+	color: var(--accent-color);
+	font-weight: 900;
+}
 body{
 	position: relative;
 	font-family: var(--default-font);
@@ -830,6 +833,7 @@ header.main-header .header-sticky.active{
     left: 0;
     right: 0;
 	background: var(--primary-color);
+	background-color: #372e1c;
     opacity: 60%;
     width: 100%;
     height: 100%;
