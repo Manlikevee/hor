@@ -46,10 +46,10 @@
 /************************************/
 
 :root{
-	--primary-color				: #bfa162;
-	--secondary-color			: #FAEFDF;
-	--text-color				: #69615D;
-	--accent-color				: #5d4a1f;
+	--primary-color				: #F4DB76;
+	--secondary-color			: #f4db768a;
+	--text-color				: #000;
+	--accent-color				: #cc9933;
 	--white-color				: #FFFFFF;
 	--divider-color				: #CD5F371A;
 	--dark-divider-color		: #FFFFFF1A;
@@ -356,7 +356,7 @@ body{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	max-width: 66px;
+	max-width: 196px;
 	transform: translate(-50%, -50%);
 }
 
@@ -374,7 +374,7 @@ body{
 	width: 100%;
 	max-width: 1800px;
 	margin: 0 auto;
-	background-color: var(--secondary-color);
+	background-color: #fff;
 	border-radius: 30px;
 }
 
@@ -413,6 +413,34 @@ body{
     color: var(--accent-color);
 	padding-left: 34px;
     margin-bottom: 10px;
+}
+
+
+.bg-section h3{
+
+    color: black;
+
+}
+
+.bg-section h3, .bg-section h2{
+
+    color: black;
+	
+}
+.approach-support-box-content{
+	color: black !important;
+}
+
+.bg-section  .approach-support-box-content h3 {
+		color: black !important;
+}
+
+.bg-section  .approach-support-box-content p {
+		color: black !important;
+}
+
+ .bg-section .icon-box, .how-work-step-item .icon-box, .contact-info-list .icon-box{
+	background-color: #cc9933 !important;
 }
 
 .section-title h3::before{
@@ -1234,6 +1262,11 @@ header.main-header .header-sticky.active{
 
 .service-content-title h2 a{
 	color: inherit;
+	font-weight: 700;
+}
+
+.page-services .service-content-title h2 {
+	color: rgba(0, 0, 0, 0.882) !important;
 }
 
 .service-content p{
@@ -1270,7 +1303,7 @@ header.main-header .header-sticky.active{
 
 .section-footer-text p span{
 	font-family: var(--accent-font);
-	color: var(--white-color);
+	color: var(--primary-color);
 	background: var(--accent-color);
 	border-radius: 30px;
 	padding: 4px 12px;
@@ -2064,14 +2097,29 @@ header.main-header .header-sticky.active{
     background-color: var(--white-color);
     border-radius: 100px;
     padding: 17px 20px;
-	border: none;
+	border: 1px solid var(--accent-color);
     outline: none;
     box-shadow: none;
+}
+
+.footer-header{
+	display: NONE !important;
+}
+
+.dsitem .service-item{
+	border: 0.7px solid var(--primary-color);
 }
 
 .appointment-form form .form-control::placeholder{
 	text-transform: capitalize;
     color: var(--text-color);
+}
+
+.how-work-step-content h3{
+	
+	color:black;
+	font-weight: bold;
+
 }
 
 .appointment-form form .form-group select{
@@ -5008,6 +5056,7 @@ header.main-header .header-sticky.active{
 
 	.footer-links{
 		width: calc(50% - 10px);
+		color: black;
 	}
 
 	.footer-links h3{
@@ -6275,4 +6324,9 @@ header.main-header .header-sticky.active{
 	.error-page-image img{
         max-width: 80%;
     }
+}
+
+.main-footer,
+.main-footer * {
+	color: #000 !important;
 }
